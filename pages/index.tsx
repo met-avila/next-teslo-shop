@@ -11,7 +11,7 @@ const HomePage: NextPage = () => {
   const { products, isLoading } = useProducts('/products');
 
   return (
-    <ShopLayout title={'Pinner - Home'} pageDescription={'Encuentra los mejores productos'}>
+    <ShopLayout title={'Pinner - Home'} pageDescription={'Encuentra los mejores productos de teslo'}>
       <Typography variant='h1' component='h1'>Tienda</Typography>
       <Typography variant='h2'>Todos los productos</Typography>
 
